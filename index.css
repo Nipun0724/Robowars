@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/desktop-wallpaper-premium-wave-abstract-purple-wave-animation-seamless-loop-purple-technology-background.jpg)
+      center/cover fixed no-repeat;
+}
+.logo {
+  display: flex;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+.logo .gif {
+  height: 280px;
+  width: 250px;
+}
+.logo .title {
+  margin-top: 100px;
+}
+.logo .title .robovitics {
+  margin-left: 50px;
+  height: 30px;
+  width: 200px;
+}
+.logo .title .robowars {
+  margin-top: 20px;
+  width: 300px;
+}
+.buttons {
+  margin-top: 30px;
+  margin-left: 70px;
+  display: flex;
+  gap: 30px;
+}
+.buttons button {
+  color: white;
+  border-radius: 10px;
+  padding: 15px 60px;
+}
+#button1 {
+  background-color: #784afa;
+  padding: 15px 60px;
+}
+#button2 {
+  border-color: #784afa;
+  background: rgba(0, 0, 0, 0);
+}
+.navbar {
+  margin-left: 180px;
+}
+.master {
+  margin-top: 40px;
+  display: flex;
+}
+.master .pic {
+  margin-top: 30px;
+  margin-left: 120px;
+  height: 550px;
+  width: 700px;
+}
+.navbar ul li {
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+#nav {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(13, 9, 29, 1);
+  border: 2px solid #0d091d;
+}
+#robo {
+  margin-top: 20px;
+  height: 30px;
+  width: 150px;
+}
+#gravitas {
+  margin-top: 20px;
+  height: 50px;
+  width: 170px;
+  margin-left: 140px;
+}
+button:hover {
+  cursor: pointer;
+}
+.open {
+  position: relative;
+  display: flex;
+}
+.open img {
+  position: absolute;
+  top: 35px;
+  right: 790px;
+  margin-left: 200px;
+}
+.close {
+  position: absolute;
+  top: -60px;
+  position: relative;
+  display: flex;
+}
+.close img {
+  position: absolute;
+  top: 35px;
+  right: 790px;
+  margin-left: 200px;
+}
+.ceremony h2,
+h3 {
+  color: #0d091d;
+}
+.ceremony {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px 100px;
+  margin-left: 35%;
+  border-radius: 10px;
+  border: 2px solid #0d091d;
+  background-color: rgba(218, 202, 252, 1);
+}
+.timeline #line {
+  height: 170px;
+  margin-left: 45%;
+  position: absolute;
+  top: 110px;
+  right: 530px;
+}
+.timeline #line1 {
+  height: 230px;
+  margin-left: 43%;
+  position: relative;
+  top: -15px;
+}
+.container {
+  background: url("https://robowars.robovitics.in/imgs/Polygon%2010.2480452e37b6d94d06bc.png")
+    center/cover no-repeat;
+  margin-top: 120px;
+  margin-left: 350px;
+  height: 450px;
+  width: 550px;
+  position: relative;
+}
+.lines {
+  border-left: 1px solid white;
+  height: 140px;
+  position: absolute;
+  top: 170px;
+  right: 280px;
+}
+.container h5 {
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  right: 240px;
+}
+.container h4 {
+  font-size: 20px;
+  position: absolute;
+  top: 135px;
+  right: 210px;
+}
+.container h3 {
+  font-size: 20px;
+  position: absolute;
+  top: 320px;
+  right: 235px;
+}
+#tune {
+  font-size: 20px;
+  color: white;
+}
+.ceremony h2 {
+  text-underline-offset: 15px;
+  text-decoration: underline;
+}
+#aboutus h1 {
+  text-underline-offset: 15px;
+  color: #d2b6ff;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(120, 74, 250, 0.4),
+    -0.25rem -0.25rem 0.625rem rgba(120, 74, 250, 0.3);
+}
+video {
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.buttons2 {
+  margin-top: 20px;
+  margin-left: 200px;
+  display: flex;
+  gap: 30px;
+}
+.buttons2 #btn1 {
+  font-size: 20px;
+  background-color: rgba(158, 135, 251, 0.5);
+  padding: 10px 150px;
+  border-radius: 10px;
+  border: 3px solid #784afa;
+}
+.buttons2 #btn2 {
+  font-size: 20px;
+  background-color: rgba(158, 135, 251, 0);
+  padding: 10px 150px;
+  border-radius: 10px;
+  border: 3px solid #784afa;
+}
+.desp {
+  border: 3px solid #d2b6ff;
+  border-radius: 10px;
+  text-align: justify;
+  margin: 20px 170px;
+  padding: 50px;
+}
+.details {
+  margin-top: 40px;
+  display: flex;
+}
+.details img {
+  margin-left: 60px;
+  width: 400px;
+  height: 150px;
+}
+.divider {
+  border: 1px solid white;
+  margin: 50px 100px;
+  box-shadow: 1px 1px #888888;
+}
+.details .desp {
+  border: 3px solid #d2b6ff;
+  border-radius: 10px;
+  text-align: justify;
+  margin: 20px 100px;
+  padding: 50px;
+}
+.pub {
+  margin: 50px 70px;
+  margin-top: 50px;
+  display: flex;
+}
+.pub img {
+  border: 2px solid white;
+  padding: 10px;
+}
+.cats {
+  margin-left: 110px;
+  display: flex;
+  gap: 150px;
+  margin-bottom: 100px;
+}
+.name {
+  text-align: center;
+  margin-top: 100px;
+  border: 2px solid #d2b6ff;
+  background-color: rgba(158, 135, 251, 0.9);
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+.image1 {
+  height: 250px;
+  width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(120, 74, 250, 0.4);
+  border: 2px solid #784afa;
+  border-radius: 10px;
+  animation: change1 10s linear;
+  animation-iteration-count: infinite;
+}
+@keyframes change1 {
+  0% {
+    background: url(./assets/1f.png) center/cover no-repeat;
+  }
+  25% {
+    background: url(./assets/2f.png) center/cover no-repeat;
+  }
+  50% {
+    background: url(./assets/3f.png) center/cover no-repeat;
+  }
+  75% {
+    background: url(./assets/2f.png) center/cover no-repeat;
+  }
+  100% {
+    background: url(./assets/1f.png) center/cover no-repeat;
+  }
+}
+.phones h3 {
+  color: white;
+}
+.image2 {
+  height: 250px;
+  width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(120, 74, 250, 0.4);
+  border: 2px solid #784afa;
+  border-radius: 10px;
+  animation: change2 10s linear;
+  animation-iteration-count: infinite;
+}
+.vert1 .i1 {
+  margin-bottom: 20px;
+  padding-top: -90px;
+}
+.vert1 .i2 {
+  margin-top: -25px;
+}
+.vert2 .i1 {
+  margin-top: 0px;
+}
+.vert2 .i2 {
+  margin-top: -7px;
+}
+@keyframes change2 {
+  0% {
+    background: url(./assets/4h.png) center/cover no-repeat;
+  }
+  25% {
+    background: url(./assets/5h.png) center/cover no-repeat;
+  }
+  50% {
+    background: url(./assets/6h.png) center/cover no-repeat;
+  }
+  75% {
+    background: url(./assets/5h.png) center/cover no-repeat;
+  }
+  100% {
+    background: url(./assets/4h.png) center/cover no-repeat;
+  }
+}
+h1 {
+  text-underline-offset: 15px;
+  color: #d2b6ff;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(120, 74, 250, 0.4),
+    -0.25rem -0.25rem 0.625rem rgba(120, 74, 250, 0.3);
+}
+.sponsors {
+  display: flex;
+  margin-top: 120px;
+  gap: 100px;
+  margin-left: 200px;
+}
+.back {
+  transform: rotateY(-90deg);
+  animation: rotateb 500ms linear;
+  text-align: center;
+}
+.h1 {
+  display: flex;
+}
+.front {
+  animation: rotatef 500ms linear;
+}
+@keyframes rotatef {
+  0% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@keyframes rotateb {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-90deg);
+  }
+}
+.contact {
+  display: flex;
+  gap: 150px;
+  margin: 50px 50px;
+}
+.banner {
+  display: flex;
+}
+.links h2 {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+.links i {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.banner img {
+  margin-left: 40px;
+  height: 200px;
+}
+.phones {
+  display: flex;
+  gap: 50px;
+}
+.phone {
+  margin-top: 30px;
+  text-align: center;
+}
+.card {
+  margin: 20px 100px;
+  border: 2px solid #784afa;
+  background-color: #ab93d2;
+  border-radius: 10px;
+  height: 200px;
+  text-align: justify;
+  padding: 30px;
+  width: 300px;
+}
+@keyframes rotate1 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotateY(-90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.card:hover .front {
+  animation: rotate1 500ms linear;
+  animation-fill-mode: forwards;
+}
+.card:hover .back {
+  animation: rotate2 500ms linear;
+  animation-fill-mode: forwards;
+}
